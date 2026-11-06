@@ -416,6 +416,7 @@ h1 {
   }
 
   .gallery {
+    grid-template-columns: minmax(0, 1fr);
     row-gap: 26px;
   }
 
