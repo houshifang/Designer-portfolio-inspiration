@@ -12,4 +12,4 @@
 
 ## 分享封面
 
-封面是 `dist/share-cover.jpg`。将来如果公开发布，在 `dist/index.html` 的 `<head>` 中把 `og:image` 和 `twitter:image` 改为图片的完整 HTTPS 地址，并将 `og:url` 设为正式首页地址。
+封面是 `dist/share-cover.jpg`。`dist/index.html` 的 `<head>` 中，`og:image` 和 `twitter:image` 使用封面的完整 HTTPS 地址，`og:url` 使用正式首页地址。如果更换域名，请同步更新这三项。

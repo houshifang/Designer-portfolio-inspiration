@@ -85,6 +85,15 @@ h1 {
   letter-spacing: -.035em;
 }
 
+.masthead-wheat {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+}
+
 .theme-switch:not([hidden]) {
   --theme-tab-size: 38px;
   position: relative;
@@ -395,13 +404,26 @@ h1 {
   }
 }
 
+@media (max-width: 780px) {
+  .masthead {
+    flex-wrap: wrap;
+    row-gap: 12px;
+  }
+
+  .masthead-wheat {
+    position: static;
+    transform: none;
+    flex-basis: 100%;
+  }
+}
+
 @media (max-width: 600px) {
   .page {
     padding-bottom: 40px;
   }
 
   .masthead {
-    gap: 8px;
+    column-gap: 8px;
     padding-block: 22px;
     margin-bottom: 18px;
   }
@@ -426,11 +448,6 @@ h1 {
 }
 
 @media (max-width: 540px) {
-  .masthead {
-    flex-wrap: wrap;
-    row-gap: 12px;
-  }
-
   .site-brand {
     flex-basis: 100%;
   }

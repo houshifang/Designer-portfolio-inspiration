@@ -130,4 +130,39 @@ const portfolioSites = [
     url: "https://www.cheweilee.com/",
     image: "./images/che-wei-lee.webp",
   },
+  {
+    title: "Carter Ogunsola",
+    url: "https://carterogunsola.com/",
+    image: "./images/carter-ogunsola.webp",
+  },
+  {
+    title: "Haoqi Wen",
+    url: "https://haoqi.design/",
+    image: "./images/haoqi-wen.webp",
+  },
+  {
+    title: "Hiroto Sato",
+    url: "https://hirotos.com/",
+    image: "./images/hiroto-sato.webp",
+  },
+  {
+    title: "Legs",
+    url: "https://legs.work/",
+    image: "./images/legs-work.webp",
+  },
+  {
+    title: "Viacheslav Novoseltsev",
+    url: "https://vshslv.com/",
+    image: "./images/viacheslav-novoseltsev.webp",
+  },
+  {
+    title: "Tom Johnson",
+    url: "https://www.tomjohn.design/",
+    image: "./images/tom-johnson.webp",
+  },
+  {
+    title: "Yogi Suria",
+    url: "https://www.ysuriadesign.co/",
+    image: "./images/yogi-suria.webp",
+  },
 ];
