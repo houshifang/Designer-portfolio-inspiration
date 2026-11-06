@@ -110,4 +110,24 @@ const portfolioSites = [
     url: "https://samworks.vercel.app/",
     image: "./images/samiran-de.webp",
   },
+  {
+    title: "Jackie Zhang",
+    url: "https://jackiezhang.co.za/",
+    image: "./images/jackie-zhang.webp",
+  },
+  {
+    title: "Melike Turgut",
+    url: "https://meliketurgut.com/",
+    image: "./images/melike-turgut.webp",
+  },
+  {
+    title: "Neel Saswade",
+    url: "https://neelsaswade.com/",
+    image: "./images/neel-saswade.webp",
+  },
+  {
+    title: "Che Wei Lee",
+    url: "https://www.cheweilee.com/",
+    image: "./images/che-wei-lee.webp",
+  },
 ];
