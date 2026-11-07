@@ -85,15 +85,6 @@ h1 {
   letter-spacing: -.035em;
 }
 
-.masthead-wheat {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: flex;
-  justify-content: center;
-}
-
 .theme-switch:not([hidden]) {
   --theme-tab-size: 38px;
   position: relative;
@@ -408,12 +399,6 @@ h1 {
   .masthead {
     flex-wrap: wrap;
     row-gap: 12px;
-  }
-
-  .masthead-wheat {
-    position: static;
-    transform: none;
-    flex-basis: 100%;
   }
 }
 
